@@ -1,4 +1,6 @@
-# 🛡️ Day 03: Static & Dynamic Analysis and Linux Commands
+#  💡 Day 03: ✨ Static & Dynamic Analysis ✨ and 💻 Linux Commands 💻
+
+
 
 ## 📑 Table of Contents
 - [Static vs. Dynamic Analysis](#static-vs-dynamic-analysis)
