@@ -1,8 +1,16 @@
 In Day 03 i learnt about the following details which are given below:-
-- Install VS Code in Kali Linux  
-- Cloning a specific repository  
-- Attempting to penetrate Windows 11  
-- Conducting static and dynamic analysis  
+
+
+- Conducting static and dynamic analysis
+Static Analysis
+Static analysis is examining code or files without executing them to find malware or vulnerabilities.
+For example, analyzing a suspicious .exe file's code to find hardcoded IP addresses or encryption logic using Ghidra.
+It helps detect threats early but may miss behaviors that occur only when the file runs.
+
+Dynamic Analysis
+Dynamic analysis means executing a file in a sandbox to observe real behavior like network activity or system changes.
+For example, running malware in Cuckoo Sandbox to see if it sends data to a command-and-control server.
+It gives deeper insights into actual threats but is riskier if not done in isolation.
 
 Example: `/home/kali`  
 
