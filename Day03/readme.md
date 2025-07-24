@@ -69,13 +69,7 @@ File permissions in Linux control who can read, write, or execute a file. The `c
 
 <img width="794" height="397" alt="image" src="https://github.com/user-attachments/assets/3ead3fd6-05bb-4147-ba23-5de7e8a582d6" />
 
+## Villain Framework
 
-
-### Permission Structure
-
-- Owner
-- Group
-- Others
-
-
-
+Villain is a powerful command-and-control (C2) framework designed for adversary emulation and red team operations.  
+It allows attackers to manage multiple reverse shells with advanced features like relay, pivoting, and encrypted communications.
