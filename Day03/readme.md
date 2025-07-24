@@ -55,16 +55,15 @@ File permissions in Linux control who can read, write, or execute a file. The `c
 | x      | 1      | Execute      |
 | -      | 0      | No permission|
 
+<img width="794" height="397" alt="image" src="https://github.com/user-attachments/assets/3ead3fd6-05bb-4147-ba23-5de7e8a582d6" />
+
+
+
 ### Permission Structure
 
 - Owner
 - Group
 - Others
 
-### Example
 
-```bash
-chmod 755 filename
-# 7 = 4+2+1 (rwx) for owner
-# 5 = 4+1   (r-x) for group
-# 5 = 4+1   (r-x) for others
+
