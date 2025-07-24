@@ -25,20 +25,30 @@
 
 ## 💻 Useful Linux Commands
 
-| Command      | Description                          | Example Usage                       |
-|--------------|--------------------------------------|-------------------------------------|
-| `ls`         | List directory contents              | `ls -la`                            |
-| `cd`         | Change directory                     | `cd /home/user/Documents`           |
-| `pwd`        | Print working directory              | `pwd`                               |
-| `cp`         | Copy files/directories               | `cp file.txt /tmp/`                 |
-| `mv`         | Move/rename files                    | `mv old.txt new.txt`                |
-| `rm`         | Remove files/directories             | `rm -rf unwanted_folder`            |
-| `cat`        | Concatenate & display file content   | `cat notes.txt`                     |
-| `grep`       | Search text using patterns           | `grep "password" file.txt`          |
-| `chmod`      | Change file permissions              | `chmod 755 script.sh`               |
-| `ps`         | Show running processes               | `ps aux | grep python`              |
-| `top`        | Real-time process monitoring         | `top`                               |
-| `history`    | Show command history                 | `history | grep ssh`                |
+| Command       | Example                    | Purpose                             |
+| ------------- | -------------------------- | ----------------------------------- |
+| `ls`          | `ls`                       | Lists directory contents            |
+| `cd`          | `cd /var/log`              | Changes directory                   |
+| `pwd`         | `pwd`                      | Shows current directory path        |
+| `mkdir`       | `mkdir test_dir`           | Creates a new directory             |
+| `rmdir`       | `rmdir test_dir`           | Deletes an empty directory          |
+| `touch`       | `touch file.txt`           | Creates a new empty file            |
+| `rm`          | `rm file.txt`              | Removes a file                      |
+| `cp`          | `cp file.txt /tmp/`        | Copies a file                       |
+| `mv`          | `mv file.txt backup.txt`   | Moves or renames a file             |
+| `man`         | `man ls`                   | Opens the manual page for a command |
+| `echo`        | `echo "Hello World"`       | Prints a message to terminal        |
+| `chmod`       | `chmod 755 script.sh`      | Changes file permissions            |
+| `chown`       | `chown user:user file.txt` | Changes file ownership              |
+| `ps`          | `ps aux`                   | Lists active processes              |
+| `kill`        | `kill 1234`                | Terminates process by PID           |
+| `top`         | `top`                      | Real-time system monitoring         |
+| `df`          | `df -h`                    | Shows disk space usage              |
+| `du`          | `du -sh /etc/`             | Shows directory size                |
+| `cat`         | `cat file.txt`             | Displays file content               |
+| `nano` / `vi` | `nano file.txt`            | Edits a file in terminal            |
+| `clear`       | `clear`                    | Clears terminal screen              |
+| `exit`        | `exit`                     | Logs out from terminal              |
 
 ---
 
