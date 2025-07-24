@@ -1,27 +1,32 @@
-In Day 03 i learnt about the following details which are given below:-
+# Day 03: Cyber Exploration Highlights 🚀
 
+## 🔍 Static vs. Dynamic Analysis
 
-- Conducting static and dynamic analysis
-Static Analysis
-Static analysis is examining code or files without executing them to find malware or vulnerabilities.
-For example, analyzing a suspicious .exe file's code to find hardcoded IP addresses or encryption logic using Ghidra.
-It helps detect threats early but may miss behaviors that occur only when the file runs.
+**Static Analysis**
+- Examines code without running it.
+- Example: Analyze `.exe` with **Ghidra**.
 
-Dynamic Analysis
-Dynamic analysis means executing a file in a sandbox to observe real behavior like network activity or system changes.
-For example, running malware in Cuckoo Sandbox to see if it sends data to a command-and-control server.
-It gives deeper insights into actual threats but is riskier if not done in isolation.
+**Dynamic Analysis**
+- Runs the file in a sandbox.
+- Example: Use **Cuckoo Sandbox** to check for real behavior.
 
-Example: `/home/kali`  
+---
 
-In this path, the first slash represents the root directory, and the second slash indicates a subdirectory. In this case, "kali" refers to the user directory.  
+## 🖥️ Useful Linux Commands
 
-- To create an empty file, use the command `touch`.  
-- Can access the manual by using the command `man ls`.  
-- The command `pwd` displays the path of the current working directory. 
+- `touch`: Create empty file.
+- `man ls`: Manual for `ls`.
+- `pwd`: Show current directory.
 
--chmod command
+---
 
-VILLAIN FRAMEWORK
+## 🔐 The `chmod` Command
 
-    
+- Changes file permissions.
+
+---
+
+## 🦹 VILLAIN FRAMEWORK
+
+- Centralizes reverse shell management.
+- For ethical hacking and red teaming.
