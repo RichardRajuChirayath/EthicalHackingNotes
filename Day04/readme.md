@@ -38,11 +38,11 @@ Broadcast refers to sending data from one device to all devices on a network seg
 ---
 
 ## NAT
-NAT (Network Address Translation) is a process where a network device, usually a router, modifies the source or destination IP address of packets to allow multiple devices to share a single public IP address.
+NAT (Network Address Translation) is a process where a network device, usually a router, modifies the source or destination IP address of packets to allow multiple devices to share a single public[...]
 
 ---
 
 ## What is PORT-FORWARDING?
-Port forwarding is a technique used to redirect network traffic from one address and port number to another. It allows external devices to access services on a private network, such as a web server or a game server, by mapping an external port to an internal IP and port.
+Port forwarding is a technique used to redirect network traffic from one address and port number to another. It allows external devices to access services on a private network, such as a web serve[...]
 
 ---
