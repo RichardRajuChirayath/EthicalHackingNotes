@@ -14,7 +14,8 @@ A **subnet** (subnetwork) is a smaller, logical division of a larger network, cr
 - **Example:** 🏢 Dividing an office network into subnets for different departments.
 
 ## 🏷️ **MAC Address**
-A **MAC (Media Access Control) address** is a unique identifier assigned to a network interface card (NIC) for communication on the physical network segment.
+
+A MAC address is a unique code given to every device’s network card, like a digital name tag It helps devices recognize each other within the same local network (like Wi-Fi at home). It looks something like 00:1A:2B:3C:4D:5E and is usually permanent. Unlike IP addresses, MAC addresses don’t change and work at a lower level of communication.You can find yours using ipconfig /all (Windows) or ifconfig (Linux/Mac).
 - **Format:** `00:1A:2B:3C:4D:5E` (six pairs of hexadecimal digits)
 - **Use:** Used for communication within the same **local network**.
 
@@ -27,17 +28,6 @@ An **IP (Internet Protocol) address** is a numerical label assigned to each devi
 - **Why IPv6?**  
   IPv4 addresses are running out!  
   IPv6 provides a much larger address pool. 🚀
-
-  <!DOCTYPE html>
-<html>
-<body>
-  <p>A <b>MAC address</b> is a unique code given to every device’s network card, like a digital name tag.</p>
-  <p>It helps devices recognize each other within the same local network (like Wi-Fi at home).</p>
-  <p>It looks something like <code>00:1A:2B:3C:4D:5E</code> and is usually permanent.</p>
-  <p>Unlike IP addresses, MAC addresses don’t change and work at a lower level of communication.</p>
-  <p>You can find yours using <code>ipconfig /all</code> (Windows) or <code>ifconfig</code> (Linux/Mac).</p>
-</body>
-</html>
 
 
 ## 📦 **TCP/UDP**
