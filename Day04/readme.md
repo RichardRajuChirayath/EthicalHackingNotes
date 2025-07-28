@@ -15,7 +15,7 @@ A **subnet** (subnetwork) is a smaller, logical division of a larger network, cr
 
 ## 🏷️ **MAC Address**
 
-A MAC address is a unique code given to every device’s network card, like a digital name tag It helps devices recognize each other within the same local network (like Wi-Fi at home). It looks something like 00:1A:2B:3C:4D:5E and is usually permanent. Unlike IP addresses, MAC addresses don’t change and work at a lower level of communication.You can find yours using ipconfig /all (Windows) or ifconfig (Linux/Mac).
+A MAC address is a unique code given to every device’s network card, like a digital name tag. It helps devices recognize each other within the same local network (like Wi-Fi at home). It looks something like 00:1A:2B:3C:4D:5E and is usually permanent. Unlike IP addresses, MAC addresses don’t change and work at a lower level of communication. You can find yours using ipconfig /all (Windows) or ifconfig (Linux/Mac).
 - **Format:** `00:1A:2B:3C:4D:5E` (six pairs of hexadecimal digits)
 - **Use:** Used for communication within the same **local network**.
 
