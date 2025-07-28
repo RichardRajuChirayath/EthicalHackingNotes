@@ -28,6 +28,18 @@ An **IP (Internet Protocol) address** is a numerical label assigned to each devi
   IPv4 addresses are running out!  
   IPv6 provides a much larger address pool. 🚀
 
+  <!DOCTYPE html>
+<html>
+<body>
+  <p>A <b>MAC address</b> is a unique code given to every device’s network card, like a digital name tag.</p>
+  <p>It helps devices recognize each other within the same local network (like Wi-Fi at home).</p>
+  <p>It looks something like <code>00:1A:2B:3C:4D:5E</code> and is usually permanent.</p>
+  <p>Unlike IP addresses, MAC addresses don’t change and work at a lower level of communication.</p>
+  <p>You can find yours using <code>ipconfig /all</code> (Windows) or <code>ifconfig</code> (Linux/Mac).</p>
+</body>
+</html>
+
+
 ## 📦 **TCP/UDP**
 - **TCP (Transmission Control Protocol):**  
   - ☑️ Connection-oriented  
