@@ -101,3 +101,5 @@ An **IP (Internet Protocol) address** is a numerical label assigned to each devi
 **Port forwarding** allows external devices to access services on a private network by mapping an external port to an internal IP and port.
 - **Use Case:**  
   🎮 Hosting a game server or 🌍 website on your computer so others can connect via the internet.
+
+ 
