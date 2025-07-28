@@ -60,6 +60,41 @@ An **IP (Internet Protocol) address** is a numerical label assigned to each devi
 - **Example:**  
   🏠 Multiple devices in a home use one public IP to access the internet.
 
+  <!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+  <h1>Nmap Command </h1>
+
+ 
+  <pre>sudo nmap -Pn -A -sV -O -p 1-1000 -sS -vv --script default -oN scan_output.txt 192.168.1.1</pre>
+
+  <h2>Explanation of Flags</h2>
+  <table border="1">
+    <tr>
+      <th>Flag</th>
+      <th>Meaning</th>
+    </tr>
+    <tr><td>-Pn</td><td>Skip host discovery (treat all hosts as online)</td></tr>
+    <tr><td>-A</td><td>Aggressive scan (OS detection, version detection, script scan, traceroute)</td></tr>
+    <tr><td>-sV</td><td>Detect service versions</td></tr>
+    <tr><td>-O</td><td>Enable OS detection</td></tr>
+    <tr><td>-p 1-1000</td><td>Scan ports 1 through 1000</td></tr>
+    <tr><td>-sS</td><td>SYN scan (stealthy, requires root)</td></tr>
+    <tr><td>-vv</td><td>Very verbose output</td></tr>
+    <tr><td>--script default</td><td>Run default Nmap scripts</td></tr>
+    <tr><td>-oN scan_output.txt</td><td>Save output in normal format to file</td></tr>
+    <tr><td>192.168.1.1</td><td>Target IP or domain</td></tr>
+  </table>
+
+  
+
+</body>
+</html>
+
+
 ## 🚪 **Port Forwarding**
 **Port forwarding** allows external devices to access services on a private network by mapping an external port to an internal IP and port.
 - **Use Case:**  
