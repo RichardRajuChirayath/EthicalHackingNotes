@@ -46,6 +46,13 @@ An IP (Internet Protocol) address is a numerical label assigned to each device o
 - **TCP (Transmission Control Protocol):** Connection-oriented protocol. Ensures reliable delivery of data (checks for errors and correct order). Used for web browsing, emails, file transfers.
 - **UDP (User Datagram Protocol):** Connectionless protocol. Faster but less reliable (no error checking or ordering). Used for online gaming, video streaming, VoIP.
 
+| Feature      | TCP                     | UDP                    |
+|--------------|-------------------------|------------------------|
+| Connection   | Connection-oriented     | Connectionless         |
+| Reliability  | Reliable (guaranteed)   | Unreliable (best-effort)|
+| Speed        | Slower                  | Faster                 |
+| Use Cases    | Web, Email, FTP         | Video, Gaming, VoIP    |
+
 ---
 
 ## Broadcast
@@ -59,18 +66,51 @@ Broadcast refers to sending data from one device to all devices on a network seg
 
 ## NAT (Network Address Translation)
 
-NAT is a process where a network device (usually a router) modifies the source or destination IP address of packets to allow multiple devices to share a single public IP address.
+NAT translates private (local) IP addresses to a public IP address before packets are sent to another network, such as the Internet.
 
-- **Benefit:** Conserves public IP addresses and adds a layer of security.
-- **Example:** Your home router uses NAT to let all your devices access the internet with one public IP.
+- **Purpose:** Conserves public IP addresses and improves security by hiding internal addresses.
+- **Example:** Multiple devices in a home use one public IP to access the internet.
 
 ---
 
 ## Port Forwarding
 
-Port forwarding is a technique used to redirect network traffic from one address and port number to another.
+Port forwarding allows external devices to access services on a private network by mapping an external port to an internal IP and port.
 
-- **Purpose:** Allows external devices to access services on a private network, such as a web server or gaming server.
-- **Example:** Setting up port forwarding on your router so you can access your home security camera from anywhere.
+- **Use Case:** Hosting a game server or website on your computer so others can connect via the internet.
 
 ---
+
+## Practical Exercises
+
+1. **Find your computer's MAC address:**
+   - On Windows: `ipconfig /all`
+   - On Linux/Mac: `ifconfig` or `ip link`
+2. **Check your IP address:**
+   - On Windows: `ipconfig`
+   - On Linux/Mac: `ifconfig` or `ip addr`
+3. **Test connectivity using TCP/UDP:**
+   - Use `ping` (ICMP) for basic connectivity (not TCP/UDP, but related).
+   - Try sending files using FTP (TCP) and streaming a video (UDP).
+
+---
+
+## Additional Resources
+
+- [Cisco Networking Basics](https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-networking.html)
+- [IPv6 Explained (Microsoft)](https://learn.microsoft.com/en-us/windows-server/networking/technologies/ipv6/ipv6-overview)
+- [TCP vs UDP (Cloudflare)](https://www.cloudflare.com/learning/ddos/glossary/user-datagram-protocol-udp/)
+
+---
+
+## Glossary
+
+- **LAN:** Local Area Network
+- **WAN:** Wide Area Network
+- **DHCP:** Dynamic Host Configuration Protocol
+- **NAT:** Network Address Translation
+- **ARP:** Address Resolution Protocol
+
+---
+
+*For any questions or clarifications, refer to your instructor or the above resources!*
