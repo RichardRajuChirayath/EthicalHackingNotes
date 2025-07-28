@@ -73,7 +73,7 @@ An **IP (Internet Protocol) address** is a numerical label assigned to each devi
  
   <pre>sudo nmap -Pn -A -sV -O -p 1-1000 -sS -vv --script default -oN scan_output.txt 192.168.1.1</pre>
 
-  <h2>Explanation of Flags</h2>
+  <h2>Explaination of Flags</h2>
   <table border="1">
     <tr>
       <th>Flag</th>
